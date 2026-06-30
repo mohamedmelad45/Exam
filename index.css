@@ -17,7 +17,7 @@
     --main-secondary-color: #c2410c;
     --main-accent-color: #fb923c;
     --main-dark-color: #7c2d12;
-
+ 
 }
 
 body {
@@ -59,8 +59,8 @@ h6 {
 
 .navbar-nav li {
     list-style: none;
-}
 
+}
 
 .navbar-nav .nav-link.active {
     color: #ea580c;
@@ -121,6 +121,28 @@ h6 {
     background-color: rgba(234, 88, 12, 0.05);
 }
 
+#Home .icon-box {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #ea580c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 24px;
+    box-shadow: 0 4px 10px rgba(234, 88, 12, 0.3);
+ 
+}
+.icon-frontend{
+      top:10px;
+    right: 10px;
+}
+.icon-mobile{
+    bottom: 10px;
+    left: 10px;
+}
 h3 {
     color: #ea580c;
     font-size: 2rem;
